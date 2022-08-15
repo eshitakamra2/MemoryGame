@@ -1,0 +1,123 @@
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+form{
+    flex-direction: column;
+}
+form input{
+    margin-bottom: 8px;
+    width: 350px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #191970;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Fira Mono', monospace;
+	font-size: 16px;
+	background: rgba(0,0,0);
+	color: rgba(250,250,255,1);
+}
+
+pre {
+	text-align: center;
+	color: #7DF9FF;
+}
+
+.content {
+	max-width: 500px;
+	margin: 20px auto;
+}
+
+input {
+	outline: none;
+	border: none;
+	margin: 0 0 20px 3px;
+	padding: 8px 5px 0px 0;
+	border: #7DF9FF;
+    border-color: #7DF9FF;
+    background: #1f1f1f;
+	color: #7DF9FF;
+    
+	font-size: 20px;
+	border-bottom: 1px dotted rgba(91,114,127,1);
+}
+
+
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box, .prompt_box{
+    width: 500px;
+    height: 400px;
+    background: rgba(0,0,0);
+    flex-direction: column;
+}
+.box :is(h1, p, form){
+    margin: 8px;
+    font-family: 'Open Sans', sans-serif;
+}
+.box h1{
+    font-family: 'Roboto', sans-serif;
+}
+form{
+    flex-direction: column;
+}
+form input{
+    margin-bottom: 8px;
+    width: 350px;
+    padding: 20px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+h1{
+   color:#7DF9FF;
+   font-size:30px;
+   
+}
+h3{
+   color:#7DF9FF;
+   
+}
+h2{
+    background-color:rgba(0,0,0);
+text-align: center;
+border: 10px;
+border-color: blue;
+letter-spacing: 2px;
+    background: bro;
+    color:#7DF9FF;
+    padding: 5px;
+    margin:10px 10px;
+    display:block;
+    padding:10px;
+    border-radius: 10px;
+    font-size: 30px;
+   
+}
+.btn{
+    width: 150px;
+    height: 35px;
+    font-size: 1.1rem;
+    outline: none;
+    
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    background: #7DF9FF ;
+    color: #080710;
+    border-radius: 10px;
+}
+.result{
+   background-color : pink;
+}

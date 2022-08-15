@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <pre>
+        
+        
+        <img src="logo.png" width="100">
+                            
+    
+        
+        
+        </pre>
+<head> 
+    <title>Number memory game</title>    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="namepage.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="background">
+        <div class="shape"></div>
+    
+    </div><div>
+    <form id="userform">
+        <h3 id="logintext">Login Here</h3>
+    
+
+        <label for="username">Name</label>
+        <input type="text" placeholder="Username" id="username">
+        <button id="login" type="button" name="loginbutton">Log In</button>
+    
+    </form>
+    
+    
+    </div>
+    <script>
+        const form = document.getElementById('userform');
+        var name='';     
+        form.elements['login'].onclick = function(){
+            name=form.elements['username'].value;
+            sessionStorage.setItem("username", name);       
+    
+            if(name!=""){
+            window.location.href ='gamepage.php';
+            }
+        
+        }               
+    </script>
+</body>
+</html>
+
+<!-- document.getElementById("username").value; -->
